@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Sleek custom scrollbars */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(11, 19, 32, 0.4);
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(30, 58, 86, 0.7);
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(6, 182, 212, 0.5);
+  }
+}
+
+/* Google Maps Dark InfoWindow Styling */
+.gm-style .gm-style-iw-c {
+  background-color: #090f1a !important;
+  border: 1px solid rgba(6, 182, 212, 0.35) !important;
+  border-radius: 12px !important;
+  padding: 10px 14px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.7), 0 8px 10px -6px rgba(0, 0, 0, 0.7) !important;
+}
+
+.gm-style .gm-style-iw-d {
+  overflow: hidden !important;
+  color: #e2e8f0 !important;
+}
+
+.gm-style .gm-style-iw-tc::after {
+  background-color: #090f1a !important;
+  border-top: 1px solid rgba(6, 182, 212, 0.35) !important;
+}
+
+.gm-style .gm-style-iw-t::after {
+  background: #090f1a !important;
+}
+
+.gm-ui-hover-effect {
+  filter: invert(1) hue-rotate(180deg) !important;
+  opacity: 0.7 !important;
+}
+
+.gm-ui-hover-effect:hover {
+  opacity: 1 !important;
+}

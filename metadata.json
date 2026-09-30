@@ -1,0 +1,8 @@
+{
+  "name": "Remix AirSense India",
+  "description": "From scattered pollution signals to predictive environmental intelligence. AI-powered hyperlocal pollution event intelligence platform for India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
